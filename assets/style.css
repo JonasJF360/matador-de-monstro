@@ -217,6 +217,9 @@ body {
 
 /* Area de responsabilidade */
 @media (max-width: 600px) {
+    #app {
+        margin-top: 0;
+    }
     .manual .content {
         border-radius: 0;
         max-width: 100%;
