@@ -211,3 +211,19 @@ p {
     background: #259b24aa;
     color: #fff;
 }
+
+/* Area de responsabilidade */
+@media (max-width: 600px) {
+    .buttons tamplate {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons .btn {
+        margin: 5px 0;
+    }
+
+    .logs ul li {
+        font-size: 0.7rem;
+    }
+}
